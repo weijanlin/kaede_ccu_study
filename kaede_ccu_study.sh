@@ -12,7 +12,7 @@ pip3 install -U gast==0.2.2
 pip3 install -U futures
 pip3 install -U protobuf
 pip3 install -U pybind11
-pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v45 tensorflow
+sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v44 'tensorflow<2'
 sudo apt-get install -y python-matplotlib
 sudo apt-get install -y python3-opencv
 echo export OPENBLAS_CORETYPE=ARMV8 >> ~/.bashrc
